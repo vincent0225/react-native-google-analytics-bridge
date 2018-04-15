@@ -13,7 +13,6 @@ import java.util.List;
 public class GoogleAnalyticsBridgePackage implements ReactPackage {
 
     public GoogleAnalyticsBridgePackage(String trackingId) {
-        _containerHolder = containerHolder;
         _trackingId = trackingId;
     }
 
@@ -21,7 +20,6 @@ public class GoogleAnalyticsBridgePackage implements ReactPackage {
         this(null);
     }
 
-    private ContainerHolder _containerHolder = null;
     private String _trackingId;
 
     @Override
