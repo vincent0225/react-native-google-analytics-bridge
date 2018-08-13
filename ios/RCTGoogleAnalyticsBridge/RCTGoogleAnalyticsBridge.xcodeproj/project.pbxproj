@@ -11,6 +11,7 @@
 		A79185CA1C30694E001236A6 /* RCTGoogleAnalyticsBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = A79185C91C30694E001236A6 /* RCTGoogleAnalyticsBridge.h */; };
 		A79185CC1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A79185CB1C30694E001236A6 /* RCTGoogleAnalyticsBridge.m */; };
 		A79185DE1C3070E8001236A6 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A79185DD1C3070E8001236A6 /* libGoogleAnalyticsServices.a */; };
+		BF505871212138F200C481E8 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF505870212138F200C481E8 /* libAdIdAccess.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		A79185DB1C3070E8001236A6 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
 		A79185DC1C3070E8001236A6 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		A79185DD1C3070E8001236A6 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		BF505870212138F200C481E8 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
 		C9C74AC31CBD4E9F00F3BD12 /* TAGContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainer.h; sourceTree = "<group>"; };
 		C9C74AC41CBD4E9F00F3BD12 /* TAGContainerOpener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGContainerOpener.h; sourceTree = "<group>"; };
 		C9C74AC51CBD4E9F00F3BD12 /* TAGDataLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAGDataLayer.h; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A79185DE1C3070E8001236A6 /* libGoogleAnalyticsServices.a in Frameworks */,
+				BF505871212138F200C481E8 /* libAdIdAccess.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +96,7 @@
 		A79185D21C3070E8001236A6 /* google-analytics-lib */ = {
 			isa = PBXGroup;
 			children = (
+				BF505870212138F200C481E8 /* libAdIdAccess.a */,
 				C9C74AC31CBD4E9F00F3BD12 /* TAGContainer.h */,
 				C9C74AC41CBD4E9F00F3BD12 /* TAGContainerOpener.h */,
 				C9C74AC51CBD4E9F00F3BD12 /* TAGDataLayer.h */,
